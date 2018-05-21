@@ -1,0 +1,33 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "br.com.broProject"
+    },
+    "cordova-plugin-battery-status": {
+      "PACKAGE_NAME": "br.com.broProject"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "br.com.broProject"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "br.com.broProject"
+    },
+    "cordova-plugin-contacts": {
+      "PACKAGE_NAME": "br.com.broProject"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "br.com.broProject"
+    },
+    "cordova-plugin-sms": {
+      "PACKAGE_NAME": "br.com.broProject"
+    }
+  },
+  "dependent_plugins": {}
+}

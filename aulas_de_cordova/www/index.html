@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Lil Raff</title>
+    </head>
+    <body>
+        <div class="app">
+			<div class="navbar">
+				<h1>Aula de TM - Lil Raff</h1>
+			</div>
+			<div class="content">
+				</br></br><img id="imagem" style="width:270px; hight:170px" alt="Imagem Brooo"/>
+				<div id="deviceready" class="blink">
+					</br></br><p class="event listening">Connectando ao DISSpositivo</p>
+					<p class="event received">DISSpositivo pronto</p></br></br>
+						<button id="btnShowCamera">Camera</button></br></br>
+						<button id="btnPickContatcts">Selecionar Contato</button>
+					</br>
+					<div id="contatoSelecionado"></div>
+					</br>
+					<div id="geolocation"></div>
+					</br>
+					<div class="smscontent">
+						<div class="sms-content-padded">
+							<button id="btnPickContatctsForSMS">Selecionar Contato  para enviar SMS BROO</button></br></br>
+							<button id="btnGeoCurrLocationForSMS">Localizaçao to SMS BROO </button></br></br>
+							<form>
+								<input type="text" id="number4sms" placeholder="Telefone">
+								<textarea id="msg4sms" placeholder="Mensagem"></textarea>							
+								<input type="button" class="btn btn-positive btn-block" id="enviaSMS" value="Enviar Mensagem">
+							</form>
+							</br></br></br></br>
+						</div>
+				</div>
+				<div class="footer">
+				<h1>FAZ SOL Enterprises</h1>
+			</div>
+            </div>
+			
+        </div>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
